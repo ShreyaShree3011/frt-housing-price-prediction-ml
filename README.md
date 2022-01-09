@@ -1,4 +1,33 @@
-# ML Ops with GitHub Actions and Azure Machine Learning
+# HOUSING PRICE PREDICTION USING MACHINE LEARNING
+
+## DESCRIPTION 
+##### Housing Price Prediction Using Machine Learning is to predict the data of housings. Here I have included many data features. The most important feature according to the builders perspective view would be Bedroom. Sometimes it’s very important for a builder to check which is the highest selling house type which enables the builder to make houses which are more than 3 bedrooms. In the output section you would be seeing the visualization of 3 bedroom houses that are most commonly sold followed by 4 bedroom. The main Aim of this project is to make a model which can give a good prediction on the price of the house based on other variables. 
+
+## PROGRAMMING LANGUAGE USED
+##### PYTHON
+##
+## AZURE TECHNOLOGIES USED 
+##### AZURE MACHINE LEARNING 
+##### AZURE CLOUD SHELL
+##### VISUAL STUDIO CODE
+
+## CODE EXPLANATION
+
+## UPLOADING CODE TO AZURE MACHINE LEARNING STUDIO STEPS
+STEP 1 : Login to your Azure Portal 
+STEP 2 : Create a Resource Group
+STEP 3 : In resource group click on create 
+STEP 4 : Go to Categories and under that select AI + Machine Learning.
+STEP 5: Select Machine Learning and click on create.  
+STEP 6 : In Basic Section under project details select your subscription and resource group. After that in Workspace details specify your Workspace name and select your nearest region.  
+STEP 7 : Click on Review + Create and the Deployment progress will start.
+STEP 8 : After a sucessfull deployment launched Azure Machine Learning Studio to build and deploy the machine learning models.
+STEP 9 : Create a new notebook in azure machine learning studio and uploaded your code.
+STEP 10 : Next step is to upload the code in GitHub. So here, I have used Azure Cloud Shell. 
+STEP 11 : Log in to GitHub Account and create a repository name.
+STEP 12 : Follow the below steps.
+
+# ML Ops WITH GITHUB ACTIONS AND AZURE MACHINE LEARNING
 
 <p align="center">
   <img src="docs/images/aml.svg" height="80"/>
