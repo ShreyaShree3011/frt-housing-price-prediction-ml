@@ -87,3 +87,23 @@ Now you can start modifying the code in the code folder, so that your model and 
 
 ### 6. Viewing your AML resources and runs
 The log outputs of your action will provide URLs for you to view the resources that have been created in AML. Alternatively, you can visit the Machine Learning Studio to view the progress of your runs, etc.
+#
+## PROJECT SUBMITTING TO
+## FUTURE READY TALENT
+#
+#### NAME
+SHREYA SHREE PADHI
+#
+#### UNIVERSITY NAME 
+SCHOOL OF ENGINEERING AND TECHNOLOGY, JAIN UNIVERSITY
+#
+#### USN
+19BTRCY030 (BTECH 3RD YEAR)
+#
+#### LINKEDIN ACCOUNT 
+https://www.linkedin.com/in/shreya-shree-padhi/
+#
+#### GITHUB ACCOUNT - 
+https://github.com/ShreyaShree3011
+#
+
