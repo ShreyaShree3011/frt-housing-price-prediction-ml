@@ -13,11 +13,11 @@
 
 #
 
-## CODE EXPLANATION
-##### STEP 1: Install Python, Git, Anaconda and Jupyter in your systems.
-STEP 2: After all the installation part rebbot your system.
-STEP 3: Open Command Prompt in your system and check the python version.
-- In Command Prompt install 
+## INSTALLATION
+##### STEP 1 : Install Python, Git, Anaconda and Jupyter in your systems.
+##### STEP 2 : After all the installation part rebbot your system.
+##### STEP 3 : Open Command Prompt in your system and check the python version.
+##### STEP 4 :In Command Prompt install 
 - #### PyPI
 - #### numpy
 - #### pandas
@@ -25,7 +25,7 @@ STEP 3: Open Command Prompt in your system and check the python version.
 - #### seaborn 
 
 #
-## UPLOADING CODE TO AZURE MACHINE LEARNING STUDIO STEPS
+## UPLOADING CODE TO AZURE MACHINE LEARNING STUDIO
 ##### STEP 1 : Login to your Azure Portal 
 ##### STEP 2 : Create a Resource Group
 ##### STEP 3 : In resource group click on create 
@@ -78,7 +78,7 @@ Add this JSON output as a secret with the name AZURE_CREDENTIALS in GitHub repos
 
 ### 4. Define your workspace parameters
 
-You have to modify the parameters in the <a href="/.cloud/.azure/workspace.json">`/.cloud/.azure/workspace.json"`.
+You have to modify the parameters in the "/.cloud/.azure/workspace.json">`/.cloud/.azure/workspace.json"`.
 Please use the same value for the `resource_group` parameter that you have used when generating the azure credentials. If you already have an Azure ML Workspace under that resource group, change the `name` parameter in the JSON file to the name of your workspace, if you want the Action to create a new workspace in that resource group, pick a name for your new workspace, and assign it to the `name` parameter. You can also delete the `name` parameter, if you want the action to use the default value, which is the repository name. Once you save your changes to the file, the predefined GitHub workflow that trains and deploys a model on Azure Machine Learning gets triggered. Check the actions tab to view if your actions have successfully run.
 
 ### 5. Modify the code
