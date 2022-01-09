@@ -1,0 +1,17 @@
+name: "Azure Machine Learning Workspace"
+description: "Connect to or create an Azure Machine Learning Workspace with this GitHub Action"
+author: "azure/gh-aml"
+inputs:
+  azure_credentials:
+    description: "Paste output of `az ad sp create-for-rbac --name "house" --role contributor --scopes /subscriptions/857ff70f-b6cc-4e66-9c28-01fb1ca15382/resourcegroups/HPP/providers/Microsoft.MachineLearningServices/workspaces/housing-price-prediction/subscriptions/857ff70f-b6cc-4e66-9c28-01fb1ca15382/resourcegroups/HPP/providers/Microsoft.MachineLearningServices/workspaces/housing-price-prediction --sdk-auth` as value of secret variable: AZURE_CREDENTIALS"
+    required: true
+  parameters_file:
+    description: "JSON file including the parameters of the workspace."
+    required: false
+    default: "workspace.json"
+branding:
+  icon: chevron-up
+  color: "blue"
+runs:
+  using: "docker"
+  image: "Dockerfile"
